@@ -12,22 +12,6 @@
 
   int main(){
 
-
-
-   const int size=8;
-
-
-
-   int init_array[size];
-
-
-
-   vector<int> v(size);
-
-   
-
-   int insert,moveItem,sum,n,s;
-
   
 
    ifstream inFile("file.in",ios::in);
@@ -68,9 +52,19 @@
 
     }
 
-
+    int insert,moveItem,sum,n,s;
 
     inFile >>n;
+
+    const int size=n;
+
+
+
+   int init_array[size];
+
+
+
+   vector<int> v(size);
 
 
 
@@ -106,7 +100,7 @@
 
 
 
-    sum=v.at(7)+v.at(6)+v.at(5)+v.at(4)+v.at(3);
+    sum=v.at(n-1)+v.at(n-2)+v.at(n-3)+v.at(n-4)+v.at(n-5);
 
 
     outFile <<sum<<endl;
