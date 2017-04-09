@@ -1,0 +1,11 @@
+  At first,I use a class(ifstream) to read some information of a file.I inFile
+
+  in a number n which represent the number of cows.Then I set up an initial
+ 
+  array of size n to store the weight of all the cows.Then I assign the 
+
+  information of an array to a vector(v) of size n.The next,I use the sort 
+
+  function to sort all the element of the vector.After finishing sorting,I
+
+  sum up the top five cows and print out the sum of their weight.
