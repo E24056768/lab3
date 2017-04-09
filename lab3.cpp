@@ -33,25 +33,6 @@
     }
 
 
-
-   ofstream outFile("file.out",ios::out);
-
-
-
-   if(!outFile){
-
-
-
-    cerr << "Faied opening" <<endl;
-
-
-
-    exit(1);
-
-
-
-    }
-
     int insert,moveItem,sum,n,s;
 
     inFile >>n;
@@ -103,7 +84,7 @@
     sum=v.at(n-1)+v.at(n-2)+v.at(n-3)+v.at(n-4)+v.at(n-5);
 
 
-    outFile <<sum<<endl;
+    cout<<sum<<endl;
 
 
 
