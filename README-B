@@ -33,6 +33,11 @@ insertion_sort(): 104.251 seconds
 v1/v2 are the same.
 
 
+sort函數的時間複雜度是n log n=5*10^5
+電腦的速度是2GHz 所以大約會花5*10^5/2*10^9=2.5*10^(-4)(S)
+
+insertion_sort函數的時間複雜度是n^2=10^10
+電腦的速度是2GHz 所以大約會花10^10/2*10^9=5(S)
  1000000:
 
 sort(): 0.383115 seconds
