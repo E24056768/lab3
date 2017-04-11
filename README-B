@@ -1,0 +1,32 @@
+ 1000:
+
+ sort(): 0.000227 seconds
+v1/v2 are different.
+insertion_sort(): 0.010022 seconds
+v1/v2 are the same.
+
+
+ 10000:
+
+ sort(): 0.002847 seconds
+v1/v2 are different.
+insertion_sort(): 1.05975 seconds
+v1/v2 are the same.
+
+
+ 100000:
+
+sort(): 0.033888 seconds
+v1/v2 are different.
+insertion_sort(): 104.251 seconds
+v1/v2 are the same.
+
+
+ 1000000:
+
+sort(): 0.383115 seconds
+v1/v2 are different.
+
+
+insertion_sort(): 10480.6 seconds
+v1/v2 are the same.
