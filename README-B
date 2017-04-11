@@ -5,6 +5,14 @@ v1/v2 are different.
 insertion_sort(): 0.010022 seconds
 v1/v2 are the same.
 
+虛擬機的速度是2Ghz，又sort跑的秒數是0.000227秒  所以算出來是4.54*10^5個處理單元
+sort 函數的時間複雜度是n log n=3*10^3個處理單元  
+
+
+虛擬機的速度是2Ghz，又insertion_sort跑的秒數是0.010022秒  所以算出來是2*10^7個處理單元
+insertion_sort 函數的時間複雜度是n^2=3*10^6個處理單元  
+
+
 
  10000:
 
