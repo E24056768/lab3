@@ -45,3 +45,8 @@ v1/v2 are the same.
 電腦的速度是2GHz 又用sort()跑了 0.383115s  共處理7.66*10^8單元資料  大約等於sort函數的時間複雜度是n log n=6*10^6
 
 電腦的速度是2GHz 又用insertion_sort()跑了 10480.62s  共處理2.096*10^13單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^12
+
+
+
+由上述幾種不同n的結果，我們可以得知sort函數的時間複雜度是n log n、insertion_sort函數的時間複雜度是n^2是正確的，也就是說sort函數
+處理資料的速度比insertion_sort函數快!
