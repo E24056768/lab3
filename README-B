@@ -5,11 +5,10 @@ v1/v2 are different.
 insertion_sort(): 0.010022 seconds
 v1/v2 are the same.
 
-sort函數的時間複雜度是n log n=3*10^3
-電腦的速度是2GHz 所以大約會花3*10^3/2*10^9=1.5*10^-6(S)
+電腦的速度是2GHz 又用sort()跑了 0.000227s  共處理4.54*10^5單元資料  大約等於sort函數的時間複雜度是n log n=3*10^3
 
-insertion_sort函數的時間複雜度是n^2=10^6
-電腦的速度是2GHz 所以大約會花10^6/2*10^9=5*10^(-4)(S)
+
+電腦的速度是2GHz 又用insertion_sort()跑了 0.010022s  共處理2.004*10^7單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^6
 
 
  10000:
@@ -19,11 +18,9 @@ v1/v2 are different.
 insertion_sort(): 1.05975 seconds
 v1/v2 are the same.
 
-sort函數的時間複雜度是n log n=4*10^4
-電腦的速度是2GHz 所以大約會花4*10^4/2*10^9=2*10^(-5)(S)
+電腦的速度是2GHz 又用sort()跑了0.002847s  共處理5.69*10^6單元資料  大約等於sort函數的時間複雜度是n log n=4*10^4
 
-insertion_sort函數的時間複雜度是n^2=10^8
-電腦的速度是2GHz 所以大約會花10^8/2*10^9=0.05(S)
+電腦的速度是2GHz 又用insertion_sort()跑了 1.05975s  共處理2.12*10^9單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^8
 
  100000:
 
@@ -33,11 +30,9 @@ insertion_sort(): 104.251 seconds
 v1/v2 are the same.
 
 
-sort函數的時間複雜度是n log n=5*10^5
-電腦的速度是2GHz 所以大約會花5*10^5/2*10^9=2.5*10^(-4)(S)
+電腦的速度是2GHz 又用sort()跑了 0.033888s  共處理6.78*10^7單元資料  大約等於sort函數的時間複雜度是n log n=5*10^5
 
-insertion_sort函數的時間複雜度是n^2=10^10
-電腦的速度是2GHz 所以大約會花10^10/2*10^9=5(S)
+電腦的速度是2GHz 又用insertion_sort()跑了 104.251s  共處理2.085*10^11單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^10
 
 
 1000000:
@@ -47,8 +42,7 @@ v1/v2 are different.
 insertion_sort(): 10480.6 seconds
 v1/v2 are the same.
 
-sort函數的時間複雜度是n log n=6*10^6
-電腦的速度是2GHz 所以大約會花6*10^6/2*10^9=3*10^(-3)(S)
+電腦的速度是2GHz 又用sort()跑了 0.000227s  共處理4.54*10^5單元資料  大約等於sort函數的時間複雜度是n log n=3*10^3
 
-insertion_sort函數的時間複雜度是n^2=10^12
-電腦的速度是2GHz 所以大約會花10^12/2*10^9=500(S)
+insertion_sort函數的時間複雜度是n^2=10^6
+電腦的速度是2GHz 又用insertion_sort()跑了 0.010022s  共處理2.004*10^7單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^6
