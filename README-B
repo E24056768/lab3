@@ -42,7 +42,6 @@ v1/v2 are different.
 insertion_sort(): 10480.6 seconds
 v1/v2 are the same.
 
-電腦的速度是2GHz 又用sort()跑了 0.000227s  共處理4.54*10^5單元資料  大約等於sort函數的時間複雜度是n log n=3*10^3
+電腦的速度是2GHz 又用sort()跑了 0.383115s  共處理7.66*10^8單元資料  大約等於sort函數的時間複雜度是n log n=6*10^6
 
-insertion_sort函數的時間複雜度是n^2=10^6
-電腦的速度是2GHz 又用insertion_sort()跑了 0.010022s  共處理2.004*10^7單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^6
+電腦的速度是2GHz 又用insertion_sort()跑了 10480.62s  共處理2.096*10^13單元資料  大約等於insertion_sort函數的時間複雜度是n^2=10^12
